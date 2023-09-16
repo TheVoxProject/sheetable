@@ -1,6 +1,6 @@
 # Sheetable.
 
-Simple Python script to convert a GOogle SHeet's CSV output into an HTML table.
+Simple Python script to convert a Google Sheet's CSV output into an HTML table.
 
 ## Why?
 
