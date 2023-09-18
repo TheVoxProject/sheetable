@@ -18,7 +18,7 @@ def csv_to_html(csv_path, output_path):
 	csv_frame.to_html(output_path, index=False)
 
 if __name__ == "__main__":
-	parser = argparse.ArgumentParser(description="Convert a GOogle SHeets CSV to an HTML table")
+	parser = argparse.ArgumentParser(description="Convert a Google SHeets CSV to an HTML table")
 	parser.add_argument("url", help="URL to the sheet")
 	parser.add_argument("--output-path", "-o", help="What to save the HTML file as")
 	args = parser.parse_args()
